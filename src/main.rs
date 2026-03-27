@@ -10,7 +10,8 @@ mod permutations;
 mod permutations_2;
 mod generate_parentheses;
 mod letter_tile_possibilities;
+mod word_search;
 
 fn main() {
-    letter_tile_possibilities::main();
+    word_search::main();
 }
