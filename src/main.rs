@@ -8,7 +8,8 @@ mod combination_sum_2;
 mod combinations;
 mod permutations;
 mod permutations_2;
+mod generate_parentheses;
 
 fn main() {
-    permutations_2::main();
+    generate_parentheses::main();
 }
