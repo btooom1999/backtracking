@@ -9,7 +9,8 @@ mod combinations;
 mod permutations;
 mod permutations_2;
 mod generate_parentheses;
+mod letter_tile_possibilities;
 
 fn main() {
-    generate_parentheses::main();
+    letter_tile_possibilities::main();
 }
