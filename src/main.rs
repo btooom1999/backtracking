@@ -7,7 +7,8 @@ mod combination_sum;
 mod combination_sum_2;
 mod combinations;
 mod permutations;
+mod permutations_2;
 
 fn main() {
-    subsets_2::main();
+    permutations_2::main();
 }
