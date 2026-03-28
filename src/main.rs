@@ -16,7 +16,8 @@ mod letter_combinations_of_a_phone_number;
 mod the_k_th_lexicographical_string_of_all_happy_strings_of_length_n;
 mod splitting_a_string_into_descending_consecutive_values;
 mod construct_smallest_number_from_di_string;
+mod find_unique_binary_string;
 
 fn main() {
-    construct_smallest_number_from_di_string::main();
+    find_unique_binary_string::main();
 }
