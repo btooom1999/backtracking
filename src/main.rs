@@ -17,7 +17,8 @@ mod the_k_th_lexicographical_string_of_all_happy_strings_of_length_n;
 mod splitting_a_string_into_descending_consecutive_values;
 mod construct_smallest_number_from_di_string;
 mod find_unique_binary_string;
+mod split_a_string_into_the_max_number_of_unique_substrings;
 
 fn main() {
-    find_unique_binary_string::main();
+    split_a_string_into_the_max_number_of_unique_substrings::main();
 }
