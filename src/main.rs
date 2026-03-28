@@ -11,7 +11,8 @@ mod permutations_2;
 mod generate_parentheses;
 mod letter_tile_possibilities;
 mod word_search;
+mod restore_ip_addresses;
 
 fn main() {
-    word_search::main();
+    restore_ip_addresses::main();
 }
