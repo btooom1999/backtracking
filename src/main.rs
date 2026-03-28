@@ -19,7 +19,8 @@ mod construct_smallest_number_from_di_string;
 mod find_unique_binary_string;
 mod split_a_string_into_the_max_number_of_unique_substrings;
 mod maximum_length_of_a_concatenated_string_with_unique_characters;
+mod the_number_of_beautiful_subsets;
 
 fn main() {
-    maximum_length_of_a_concatenated_string_with_unique_characters::main();
+    the_number_of_beautiful_subsets::main();
 }
