@@ -13,7 +13,8 @@ mod letter_tile_possibilities;
 mod word_search;
 mod restore_ip_addresses;
 mod letter_combinations_of_a_phone_number;
+mod the_k_th_lexicographical_string_of_all_happy_strings_of_length_n;
 
 fn main() {
-    letter_combinations_of_a_phone_number::main();
+    the_k_th_lexicographical_string_of_all_happy_strings_of_length_n::main();
 }
