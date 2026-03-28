@@ -14,7 +14,8 @@ mod word_search;
 mod restore_ip_addresses;
 mod letter_combinations_of_a_phone_number;
 mod the_k_th_lexicographical_string_of_all_happy_strings_of_length_n;
+mod splitting_a_string_into_descending_consecutive_values;
 
 fn main() {
-    the_k_th_lexicographical_string_of_all_happy_strings_of_length_n::main();
+    splitting_a_string_into_descending_consecutive_values::main();
 }
