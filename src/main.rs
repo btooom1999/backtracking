@@ -12,7 +12,8 @@ mod generate_parentheses;
 mod letter_tile_possibilities;
 mod word_search;
 mod restore_ip_addresses;
+mod letter_combinations_of_a_phone_number;
 
 fn main() {
-    restore_ip_addresses::main();
+    letter_combinations_of_a_phone_number::main();
 }
