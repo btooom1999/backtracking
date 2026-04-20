@@ -48,6 +48,6 @@ fn find_subsequences(nums: Vec<i32>) -> Vec<Vec<i32>> {
 }
 
 pub fn main() {
-    let nums = (1..=15).collect();
+    let nums = [4,6,7,7].to_vec();
     println!("{:?}", find_subsequences(nums));
 }
