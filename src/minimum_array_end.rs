@@ -1,35 +1,17 @@
 fn min_end(n: i32, x: i32) -> i64 {
-    let mut n = n-1;
-    let mut bits = [0;64];
-    for i in 0..32 {
-        bits[i] = (x >> i) & 1;
-    }
+    let mut x = x as i64;
+    let mut n = (n-1) as i64;
+    let mut pos = 0;
 
-    let mut stack = Vec::new();
     while n > 0 {
-        stack.push(n & 1);
-        n >>= 1;
-    }
-
-    stack.reverse();
-    for i in 0..64 {
-        if bits[i] == 0 {
-            if let Some(bit) = stack.pop() {
-                bits[i] = bit;
-            } else {
-                break;
-            }
+        if (1 << pos) & x == 0 {
+            x |= (n & 1) << pos;
+            n >>= 1;
         }
+        pos += 1;
     }
 
-    let mut res = 0;
-    for i in 0..64 {
-        if bits[i] == 1 {
-            res |= (1 << i);
-        }
-    }
-
-    res
+    x
 }
 
 pub fn main() {
