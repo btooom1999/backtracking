@@ -22,10 +22,8 @@ mod maximum_length_of_a_concatenated_string_with_unique_characters;
 mod the_number_of_beautiful_subsets;
 mod construct_the_lexicographically_largest_valid_sequence;
 mod non_decreasing_subsequences;
-mod count_triplets_that_can_form_two_arrays_of_equal_xor;
-mod find_kth_bit_in_nth_binary_string;
-mod minimum_array_end;
+mod minimum_moves_to_spread_stones_over_grid;
 
 fn main() {
-    minimum_array_end::main();
+    minimum_moves_to_spread_stones_over_grid::main();
 }
