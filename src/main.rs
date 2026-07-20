@@ -23,7 +23,8 @@ mod the_number_of_beautiful_subsets;
 mod construct_the_lexicographically_largest_valid_sequence;
 mod non_decreasing_subsequences;
 mod minimum_moves_to_spread_stones_over_grid;
+mod sudoku_solver;
 
 fn main() {
-    minimum_moves_to_spread_stones_over_grid::main();
+    sudoku_solver::main();
 }

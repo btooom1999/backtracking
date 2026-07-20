@@ -9,15 +9,15 @@ fn dfs(
     if idx == exceed.len() { return total };
 
     let mut res = 100;
-    for &(x, y) in lack {
-        if *visited & 1 << (x*3+y) == 0 {
+    for k in 0..lack.len() {
+        if *visited & 1 << k == 0 {
             let (i, j) = exceed[idx];
-            *visited ^= 1 << (x*3+y);
+            *visited ^= 1 << k;
             grid[i][j] -= 1;
-            let steps = (x as i32 - i as i32).abs() + (y as i32 - j as i32).abs();
+            let steps = (lack[k].0 as i32 - i as i32).abs() + (lack[k].1 as i32 - j as i32).abs();
             res = res.min(dfs(if grid[i][j] == 1 { idx+1 } else { idx }, grid, exceed, lack, visited, total+steps));
             grid[i][j] += 1;
-            *visited ^= 1 << (x*3+y);
+            *visited ^= 1 << k;
 
         }
     }
