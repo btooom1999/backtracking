@@ -27,7 +27,8 @@ mod sudoku_solver;
 mod unique_paths_3;
 mod word_search_2;
 mod encrypt_and_decrypt_strings;
+mod all_paths_from_source_to_target;
 
 fn main() {
-    encrypt_and_decrypt_strings::main();
+    all_paths_from_source_to_target::main();
 }
