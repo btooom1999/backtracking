@@ -26,7 +26,8 @@ mod minimum_moves_to_spread_stones_over_grid;
 mod sudoku_solver;
 mod unique_paths_3;
 mod word_search_2;
+mod encrypt_and_decrypt_strings;
 
 fn main() {
-    word_search_2::main();
+    encrypt_and_decrypt_strings::main();
 }
