@@ -24,7 +24,8 @@ mod construct_the_lexicographically_largest_valid_sequence;
 mod non_decreasing_subsequences;
 mod minimum_moves_to_spread_stones_over_grid;
 mod sudoku_solver;
+mod unique_paths_3;
 
 fn main() {
-    sudoku_solver::main();
+    unique_paths_3::main();
 }
