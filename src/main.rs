@@ -25,7 +25,8 @@ mod non_decreasing_subsequences;
 mod minimum_moves_to_spread_stones_over_grid;
 mod sudoku_solver;
 mod unique_paths_3;
+mod word_search_2;
 
 fn main() {
-    unique_paths_3::main();
+    word_search_2::main();
 }
